@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "good_times_rg";
+    src:url("fonts/good_times_rg.otf");
+}
+
+html {
+    background-image: url("Icons/ChronalMinerBackground.png");
+    background-color: #cccccc;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'good_times_rg', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'good_times_rg', sans-serif;
+  margin-top: 0;
+}
+
+.box {
+  border-radius: 5px;
+  font-size: 150%;
+  padding: 1em;
+}
+
+#header-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #cbced3;
+} 
+
+#start-container {
+  width: 850px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #cbced3;
+}
+
+#tab-container {
+  width: 400px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #d4dadd;
+}
+
+#version-container {
+  width:  100%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #f1f3f4;
+}
+
+#image-container {
+  width: 256px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.0);
+  text-align: left;
+  border: 3px groove #edeeef;
+}
+
+#btnControl {
+    display: none;
+}
+
+#btnControl:checked + label > img {
+    width: 0px;
+    height: 0px;
+}
+
+#btnControl1 {
+    width: 0px;
+    height: 0px;
+}
+
+#btnLeft1 {
+  width: 0px;
+  height: 0px;
+}
+
+
+
+#instruction-container {
+  width: 750px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: #e0e2e5;
+  text-align: left;
+  border: 3px groove #edeeef;
+  font-size: 18px;
+  font-family: 'verdana', sans-serif;
+}
+
+#timer-container {
+  width: 550px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: #e0e2e5;
+  text-align: center;
+  border: 3px groove #edeeef;
+}
+
+.container {
+  width: 99%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: #e0e2e5;
+  text-align: left;
+  border: 3px groove #edeeef;
+}
+
+.hidden{
+  display:none;
+}
+
+.unhidden{
+  display:block;
+  
+}
