@@ -1,7 +1,7 @@
 # Chronal-Miner
 A javascript based Monero mining program that can be set to run on a timer.
 
-# Instruction 
+# Instructions
 
 1. Create a Coinhive account at https://coinhive.com/account/signup
 2. Go to the settings page at the top right corner of your Coinhive account
